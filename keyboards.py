@@ -26,3 +26,18 @@ def return_keyboard():
     markup = ReplyKeyboardMarkup(resize_keyboard = True)
     markup = create_line(markup, ['Назад'])
     return markup
+
+
+def shedule_menu_keyboard():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    markup = create_line(markup,['МАТ👑','пм','пми'])
+    markup = create_line(markup, ['Назад'])
+    return markup
+
+
+def rate_menu_keyboard():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    markup = create_line(markup, ['USD','EUR'])
+    markup = create_line(markup, ['Назад'])
+    return markup
+
